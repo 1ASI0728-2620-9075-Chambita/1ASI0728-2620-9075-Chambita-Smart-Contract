@@ -1,0 +1,21 @@
+{
+  "name": "chambita-smart-contract",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Soulbound ERC-721 (EIP-5192) experience certificates for Chambita, deployed on Ethereum Sepolia.",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.29.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
